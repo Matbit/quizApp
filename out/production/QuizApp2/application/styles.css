@@ -1,0 +1,99 @@
+.root{
+    -fx-base: rgb(255,222,173);
+    -fx-font: 11 "Courier";
+}
+
+
+Button {
+    -fx-background-color: rgb(255,165,0);
+    -fx-font: 14 "Courier";
+}
+
+Button:hover{
+    -fx-background-color: rgb(152,251,152);
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+    -fx-border-color: rgb(255,140,0);
+}
+
+
+
+#btnDelete{
+    -fx-font: 11 "Courier";
+}
+
+#btnActivate{
+    -fx-font: 11 "Courier";
+}
+#btnAddData{
+    -fx-font: 11 "Courier";
+}
+#btnClear{
+    -fx-font: 11 "Courier";
+}
+#btnClearHighscore{
+    -fx-font: 10 "Courier";
+}
+
+#tbxQuestion{
+    -fx-background-color: white;
+}
+#tbxQuestion:focused{
+    -fx-border-color: rgb(255,140,0);
+    -fx-border-width: 3px;
+}
+
+#tbxInformation{
+    -fx-background-color: white;
+}
+
+#tbxInformation:focused{
+    -fx-border-color: rgb(255,140,0);
+    -fx-border-width: 3px;
+}
+
+#lQuestionField{
+    -fx-font: 20 "Courier";
+    -fx-text-fill: rgb(0,0,139);
+}
+
+#btnYES{
+    -fx-background-color: rgb(50,205,50);
+    -fx-border-radius: 10px;
+    -fx-background-radius: 15%;
+}
+#btnYES:hover{
+    -fx-border-color: black;
+}
+
+#btnNO{
+    -fx-background-color: rgb(205,0,0);
+    -fx-border-radius: 10px;
+    -fx-background-radius: 15%;
+}
+#btnNO:hover{
+    -fx-border-color: black;
+}
+
+#lCount{
+    -fx-font: 12 "Courier";
+    -fx-text-fill: rgb(0,0,139);
+}
+
+#lScore{
+    -fx-font: 12 "Courier";
+    -fx-text-fill: rgb(0,0,139);
+}
+#lInformation{
+    -fx-font: 14 "Courier";
+    -fx-text-fill: rgb(0,0,139);
+}
+
+#btnPayPal{
+    -fx-background-image: url("assets/paypal.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-background-size: 45.0, 45.0;
+}
+#btnPayPal:hover{}
